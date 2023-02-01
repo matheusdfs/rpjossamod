@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rpjossamod:item/fire_flower_mario_item"
+  }
+}
