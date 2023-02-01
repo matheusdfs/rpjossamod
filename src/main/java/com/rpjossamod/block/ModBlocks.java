@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RPJossaMod.MODID);
 
-    public static final RegistryObject<Block> SUPER_MARIO_BROS_8BITS_BRICK_BLOCK = registerBlock("super_mario_brick_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BRICK_MARIO_BLOCK = registerBlock("brick_mario_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)), CreativeModeTabs.BUILDING_BLOCKS);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn =  BLOCKS.register(name, block);

@@ -1,4 +1,6 @@
 {
   "item.rpjossamod.coin_mario_item": "Mario Coin",
-  "item.rpjossamod.fire_flower_mario_item": "Fire Flower"
+  "item.rpjossamod.fire_flower_mario_item": "Fire Flower",
+
+  "block.rpjossamod.brick_mario_block": "Brick Block"
 }

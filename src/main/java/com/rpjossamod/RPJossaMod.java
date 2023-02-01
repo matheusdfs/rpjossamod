@@ -70,7 +70,7 @@ public class RPJossaMod
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
         if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.SUPER_MARIO_BROS_8BITS_BRICK_BLOCK);
+            event.accept(ModBlocks.BRICK_MARIO_BLOCK);
         }
 
         if (event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
